@@ -1,0 +1,58 @@
+.setting_admin {
+    z-index: 10;
+    display: block;
+    position: fixed;
+    top: 15%;
+    cursor: pointer;
+    right: -13px;
+}
+
+.setting_admin:hover {
+    right: 0;
+}
+
+.setting-admin {
+    position: fixed;
+    z-index: 9;
+    top: 175px;
+    right: -100%;
+    width: 100%;
+    padding: 30px;
+    height: calc(100vh - 240px);
+    background-color: #fff;
+    -webkit-transition: right .3s;
+    transition: right .3s;
+    -webkit-box-shadow: 0 0 10px -2px;
+    box-shadow: 0 0 10px -2px;
+}
+
+.setting-admin .form-group img {
+    width: 115px;
+    height: 115px;
+    margin: 0 auto 5px;
+    display: block;
+}
+
+.setting-admin .form-group label {
+    display: block;
+    text-align: center;
+}
+
+.setting-admin textarea.form-control {
+    resize: none;
+    height: 150px;
+}
+
+.open-setting-admin {
+    right: 0;
+    -webkit-transition: right .3s;
+    transition: right .3s;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.p-4 {
+    padding: 1.5rem !important
+}

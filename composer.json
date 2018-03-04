@@ -1,0 +1,65 @@
+{
+  "name": "seomanager/laravel-seo-manager",
+  "description": "SEO Manger for Laravel",
+  "keywords": [
+    "laravel5",
+    "seo",
+    "SeoManager",
+    "webmaster",
+    "metatags",
+    "opengraph",
+    "manager"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vahe Saroyan",
+      "email": "vahe.saroyan.web@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/config": "~5",
+    "illuminate/support": "~5",
+    "artesaos/seotools": "^0.10.0",
+    "intervention/image": "^2.4.1",
+    "laravelcollective/html": "^5.4.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Laravel\\SeoManager\\": "src/SeoManager/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Laravel\\SeoManager\\Test\\": "tests/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Laravel\\SeoManager\\Providers\\SeoManagerServiceProvider"
+      ],
+      "aliases": {
+        "LaravelSeo": "Laravel\\SeoManager\\Facades\\SeoManager"
+      }
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php artisan vendor:publish --tag=public",
+      "php artisan migrate"
+    ],
+    "post-update-cmd": [
+      "php artisan vendor:publish --tag=public --force",
+      "php artisan migrate"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
