@@ -50,16 +50,6 @@
       }
     }
   },
-  "scripts": {
-    "post-install-cmd": [
-      "php artisan vendor:publish --tag=public",
-      "php artisan migrate"
-    ],
-    "post-update-cmd": [
-      "php artisan vendor:publish --tag=public --force",
-      "php artisan migrate"
-    ]
-  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
