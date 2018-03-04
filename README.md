@@ -1,5 +1,17 @@
 # Laravel Seo Manager
 ------------------------------
+> Current Build Status
+
+[![Build Status](https://travis-ci.org/artesaos/seotools.svg)](https://travis-ci.org/artesaos/seotools)
+[![Code Climate](https://codeclimate.com/github/artesaos/seotools/badges/gpa.svg)](https://codeclimate.com/github/VaheSaroyan/laravel-seo-manager)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/449f1862c015444cbe2b3daf61ab7b10)](https://www.codacy.com/app/VaheSaroyan/Laravel-laravel-seo-tools?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VaheSaroyan/Laravel-laravel-seo-tools&amp;utm_campaign=Badge_Grade)
+> Statistics
+[![Latest Stable Version](https://poser.pugx.org/seomanager/laravel-seo-manager/v/stable)](https://packagist.org/packages/seomanager/laravel-seo-manager)
+[![Total Downloads](https://poser.pugx.org/seomanager/laravel-seo-manager/downloads)](https://packagist.org/packages/seomanager/laravel-seo-manager)
+[![License](https://poser.pugx.org/seomanager/laravel-seo-manager/license)](https://packagist.org/packages/seomanager/laravel-seo-manager)
+[![Latest Unstable Version](https://poser.pugx.org/seomanager/laravel-seo-manager/v/unstable)](https://packagist.org/packages/seomanager/laravel-seo-manager)
+[![Monthly Downloads](https://poser.pugx.org/seomanager/laravel-seo-manager/d/monthly)](https://packagist.org/packages/seomanager/laravel-seo-manager)
+[![Daily Downloads](https://poser.pugx.org/seomanager/laravel-seo-manager/d/daily)](https://packagist.org/packages/seomanager/laravel-seo-manager)
 ## Installation
 ### 1 - Dependency
 The first step is using composer to install the package and automatically update your `composer.json` file, you can do this by running:
