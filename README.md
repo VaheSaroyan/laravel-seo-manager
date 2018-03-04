@@ -2,7 +2,7 @@
 ------------------------------
 > Current Build Status
 
-[![Build Status](https://travis-ci.org/artesaos/seotools.svg)](https://travis-ci.org/artesaos/seotools)
+
 [![Code Climate](https://codeclimate.com/github/artesaos/seotools/badges/gpa.svg)](https://codeclimate.com/github/VaheSaroyan/laravel-seo-manager)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/449f1862c015444cbe2b3daf61ab7b10)](https://www.codacy.com/app/VaheSaroyan/Laravel-laravel-seo-tools?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VaheSaroyan/Laravel-laravel-seo-tools&amp;utm_campaign=Badge_Grade)
 > Statistics
