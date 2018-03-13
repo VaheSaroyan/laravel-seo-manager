@@ -21,7 +21,12 @@ class LaravelSeoController extends Controller
 
         ]);
         if($request->file('image')){
-            ImageServices::savePhoto($request['image'],$seoAllPages,'image');
+            if(config('LaravelSeoManager.filesystem') == 'local'){
+                ImageServices::savePhoto($request['image'],$seoAllPages,'image');
+            }else{
+                ImageServices::saveS3Photo($request['image'], $request['title'], 'seo', $seoAllPages,'image');
+            }
+
         }
         return back();
 
