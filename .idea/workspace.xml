@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3156a331-0a10-4875-88a4-95e1480ddd08" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravelSeoPakage.iml" afterPath="$PROJECT_DIR$/.idea/laravelSeoPakage.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/config/LaravelSeoManager.php" afterPath="$PROJECT_DIR$/config/LaravelSeoManager.php" />
-      <change beforePath="$PROJECT_DIR$/src/SeoManager/Controllers/LaravelSeoController.php" afterPath="$PROJECT_DIR$/src/SeoManager/Controllers/LaravelSeoController.php" />
-      <change beforePath="$PROJECT_DIR$/src/SeoManager/Services/ImageServices.php" afterPath="$PROJECT_DIR$/src/SeoManager/Services/ImageServices.php" />
+      <change beforePath="$PROJECT_DIR$/src/SeoManager/Models/LaravelSeoManager.php" afterPath="$PROJECT_DIR$/src/SeoManager/Models/LaravelSeoManager.php" />
+      <change beforePath="$PROJECT_DIR$/src/SeoManager/resource/views/index.blade.php" afterPath="$PROJECT_DIR$/src/SeoManager/resource/views/index.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
+              <first_editor relative-caret-position="255">
                 <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
                 <folding>
                   <marker date="1520187359771" expanded="true" signature="3431:3470" ph="..." />
@@ -59,12 +55,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LaravelSeoController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LaravelSeoController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SeoManager/Controllers/LaravelSeoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="326">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="27" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaravelSeoManager.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SeoManager/Models/LaravelSeoManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SeoManager/resource/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+              <folding>
+                <marker date="1520954901664" expanded="true" signature="31:73" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="271:303" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="362:374" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="426:433" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="504:545" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="573:639" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="663:730" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="753:816" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="876:925" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="953:1030" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="1054:1132" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="1155:1226" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="1286:1338" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="1366:1449" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="1473:1557" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="1580:1654" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="1714:1755" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="1783:1864" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="1896:1906" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="1998:2061" ph="..." />
+                <marker date="1520954901664" expanded="true" signature="2239:2292" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +110,7 @@
       <file leaf-file-name="SeoManagerServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SeoManager/Providers/SeoManagerServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="408">
               <caret line="26" column="99" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="99" />
               <folding />
             </state>
@@ -102,7 +140,7 @@
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="867">
               <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding />
             </state>
@@ -122,6 +160,8 @@
         <option value="$PROJECT_DIR$/config/LaravelSeoManager.php" />
         <option value="$PROJECT_DIR$/src/SeoManager/Services/ImageServices.php" />
         <option value="$PROJECT_DIR$/src/SeoManager/Controllers/LaravelSeoController.php" />
+        <option value="$PROJECT_DIR$/src/SeoManager/resource/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/src/SeoManager/Models/LaravelSeoManager.php" />
       </list>
     </option>
   </component>
@@ -130,6 +170,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -188,6 +231,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,11 +239,43 @@
               <item name="laravelSeoPakage" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravelSeoPakage" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="laravelSeoPakage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravelSeoPakage" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravelSeoPakage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravelSeoPakage" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SeoManager" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravelSeoPakage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravelSeoPakage" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SeoManager" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravelSeoPakage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravelSeoPakage" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SeoManager" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resource" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravelSeoPakage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravelSeoPakage" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SeoManager" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resource" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,15 +310,17 @@
       <option name="presentableId" value="Default" />
       <updated>1520183230528</updated>
       <workItem from="1520183231904" duration="204000" />
-      <workItem from="1520946030946" duration="1289000" />
+      <workItem from="1520946030946" duration="1954000" />
+      <workItem from="1520954688514" duration="263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2015000" />
+    <option name="totallyTimeSpent" value="2943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-331" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -250,8 +328,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33369565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33369565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25479743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -279,6 +357,77 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <folding>
+              <marker date="1520187359771" expanded="true" signature="3431:3470" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/LaravelSeoManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeoManager/Services/ImageServices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="67" />
+          <folding>
+            <element signature="e#1263#1428#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeoManager/Providers/SeoManagerServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="99" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeoManager/Controllers/LaravelSeoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -364,7 +513,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
+          <first_editor relative-caret-position="255">
             <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             <folding>
               <marker date="1520187359771" expanded="true" signature="3431:3470" ph="..." />
@@ -392,7 +541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="867">
           <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
           <folding />
         </state>
@@ -400,7 +549,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SeoManager/Providers/SeoManagerServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="408">
           <caret line="26" column="99" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="99" />
           <folding />
         </state>
@@ -426,8 +575,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SeoManager/Controllers/LaravelSeoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="326">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeoManager/resource/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <marker date="1520954901664" expanded="true" signature="31:73" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="271:303" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="362:374" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="426:433" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="504:545" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="573:639" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="663:730" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="753:816" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="876:925" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="953:1030" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="1054:1132" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="1155:1226" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="1286:1338" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="1366:1449" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="1473:1557" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="1580:1654" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="1714:1755" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="1783:1864" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="1896:1906" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="1998:2061" ph="..." />
+            <marker date="1520954901664" expanded="true" signature="2239:2292" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeoManager/Models/LaravelSeoManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

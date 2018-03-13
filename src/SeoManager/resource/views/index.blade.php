@@ -26,7 +26,7 @@
             </div>
             <div class="form-group {{ $errors->has("image") ? 'has-error' : ''}} p-4">
                 {!! Form::label("Opengraph Image", 'Opengraph Image', ['class' => 'control-label']) !!}
-                <img src="/storage/{{$seo_image}}" alt="">
+                <img src="{{$seo_image}}" alt="">
                 <input type="file" name="image" width="150">
                 {!! $errors->first("image", '<p class="help-block">:message</p>') !!}
             </div>
