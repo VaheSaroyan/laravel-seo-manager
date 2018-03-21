@@ -52,7 +52,7 @@ class SeoManagerServiceProvider extends ServiceProvider
             'locale' => $request->getRequestUri(),
         ];
 
-        view()->composer('*', function ($view) use ($request, $viewArray) {
+        view()->composer(config('LaravelSeoManager.view-name'), function ($view) use ($request, $viewArray) {
             $seo = null;
             if(Schema::hasTable('laravel_seo_managers')){
                 $seo = LaravelSeoManager::where('url', $request->getRequestUri())->first();

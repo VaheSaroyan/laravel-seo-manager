@@ -4,5 +4,7 @@ return array(
     //package type provider,controller
     'date-send-type' => 'provider',
     //filesystem default local // s3
-    'filesystem'=>'local'
+    'filesystem'=>'local',
+    //view name ex layout.app // *-(all) ~~~~~~
+    'view-name'=>'*'
 );
