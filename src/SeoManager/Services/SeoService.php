@@ -28,8 +28,8 @@ class SeoService implements SeoContact {
         SEOMeta::setTitle($title);
         SEOMeta::setDescription($description);
         OpenGraph::setDescription($description);
-        OpenGraph::addProperty('type', 'website');
-        OpenGraph::addProperty('locale', 'en');
+//        OpenGraph::addProperty('type', 'website');
+//        OpenGraph::addProperty('locale', 'en');
         OpenGraph::setTitle($title);
         OpenGraph::addImage($image);
 
