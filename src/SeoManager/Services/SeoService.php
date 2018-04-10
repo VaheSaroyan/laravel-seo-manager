@@ -31,7 +31,7 @@ class SeoService implements SeoContact {
         OpenGraph::addProperty('type', 'website');
         OpenGraph::addProperty('locale', 'en');
         OpenGraph::setTitle($title);
-        OpenGraph::addImage(storage_path($image));
+        OpenGraph::addImage($image);
 
     }
 
