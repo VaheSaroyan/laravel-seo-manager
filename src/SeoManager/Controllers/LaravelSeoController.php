@@ -20,7 +20,7 @@ class LaravelSeoController extends Controller
 
         ]);
         if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->storePublicly('seoImages');
+            $imagePath = $request->file('image')->storePublicly('public/seoImages');
             $seoAllPages->image = $imagePath;
             $seoAllPages->save();
         }

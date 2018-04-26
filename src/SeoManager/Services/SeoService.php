@@ -34,7 +34,6 @@ class SeoService implements SeoContact {
         OpenGraph::setTitle($title);
         OpenGraph::addImage($image);
         TwitterCard::setTitle($title);
-        TwitterCard::setSite('@WooChess');
         TwitterCard::setDescription($description);
         TwitterCard::setUrl($uri);
         TwitterCard::addImage($image);
