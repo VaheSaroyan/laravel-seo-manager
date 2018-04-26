@@ -29,7 +29,7 @@ You need to update your application configuration in order to register the packa
 // file START ommited
     'providers' => [
         // other providers ommited
-        Laravel\\SeoManager\\Providers\\SeoManagerServiceProvider::class,
+        Laravel\SeoManager\Providers\SeoManagerServiceProvider::class,
     ],
 // file END ommited
 ```
@@ -47,7 +47,7 @@ In order to use the `SEOMeta` facade, you need to register it on the `config/app
     'aliases' => [
         // other Facades ommited
        
-             'LaravelSeo'=>Laravel\\SeoManager\\Facades\\SeoManager::class,
+             'LaravelSeo'=>Laravel\SeoManager\Facades\SeoManager::class,
              
                  ],
 // file END ommited
