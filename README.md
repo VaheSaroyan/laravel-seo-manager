@@ -5,6 +5,7 @@
 
 [![Code Climate](https://codeclimate.com/github/artesaos/seotools/badges/gpa.svg)](https://codeclimate.com/github/VaheSaroyan/laravel-seo-manager)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/449f1862c015444cbe2b3daf61ab7b10)](https://www.codacy.com/app/VaheSaroyan/Laravel-laravel-seo-tools?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VaheSaroyan/Laravel-laravel-seo-tools&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/VaheSaroyan/laravel-seo-manager.svg?branch=master)](https://travis-ci.org/VaheSaroyan/laravel-seo-manager)
 > Statistics
 [![Latest Stable Version](https://poser.pugx.org/seomanager/laravel-seo-manager/v/stable)](https://packagist.org/packages/seomanager/laravel-seo-manager)
 [![Total Downloads](https://poser.pugx.org/seomanager/laravel-seo-manager/downloads)](https://packagist.org/packages/seomanager/laravel-seo-manager)
