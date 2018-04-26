@@ -22,7 +22,6 @@
     "illuminate/config": "~5",
     "illuminate/support": "~5",
     "artesaos/seotools": "^0.10.0",
-    "intervention/image": "^2.4.1",
     "laravelcollective/html": "^5.4.0"
   },
   "require-dev": {

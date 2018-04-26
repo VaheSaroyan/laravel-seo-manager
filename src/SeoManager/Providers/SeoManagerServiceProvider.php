@@ -4,16 +4,15 @@ namespace Laravel\SeoManager\Providers;
 
 use App\Http\Controllers\Controller;
 use Artesaos\SEOTools\Facades\SEOTools;
-use function config;
 use Illuminate\Foundation\AliasLoader;
-use Illuminate\Support\Facades\Schema;
-use Intervention\Image\Image;
-use Laravel\SeoManager\Facades;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
-use Laravel\SeoManager\SeoManager;
+use Intervention\Image\Image;
 use Laravel\SeoManager\Models\LaravelSeoManager;
+use Laravel\SeoManager\SeoManager;
 use Laravel\SeoManager\Services\SeoService;
+use function config;
 
 class SeoManagerServiceProvider extends ServiceProvider
 {
@@ -52,12 +51,11 @@ class SeoManagerServiceProvider extends ServiceProvider
             'locale' => $request->getRequestUri(),
         ];
 
-        view()->composer(config('LaravelSeoManager.view-name'), function ($view) use ($request, $viewArray) {
+        view()->composer((config('LaravelSeoManager.view-name') == '*')? '*':[(string)config('LaravelSeoManager.view-name')], function ($view) use ($request, $viewArray) {
             $seo = null;
             if(Schema::hasTable('laravel_seo_managers')){
                 $seo = LaravelSeoManager::where('url', $request->getRequestUri())->first();
             }
-
 
             if ($seo != null) {
                 $viewArray['meta_title'] = $seo->title;
@@ -79,7 +77,6 @@ class SeoManagerServiceProvider extends ServiceProvider
     public function register()
     {
         $this->registerProvider('Artesaos\SEOTools\Providers\SEOToolsServiceProvider');
-        $this->registerProvider('Intervention\Image\ImageServiceProvider');
 
         $this->app->singleton('seomanager', function () {
             return new SeoManager();
@@ -87,7 +84,6 @@ class SeoManagerServiceProvider extends ServiceProvider
 
         $this->makeAlias('SEO', SEOTools::class);
         $this->makeAlias('SeoManager', SeoManager::class);
-        $this->makeAlias('Image', Image::class);
 
     }
 

@@ -62,6 +62,7 @@ In your terminal type
 ```shell
 php artisan vendor:publish
 php artisam migrate
+php artisan storage:link
 ```
 
 

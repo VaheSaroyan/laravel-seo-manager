@@ -2,7 +2,6 @@
 
 namespace Laravel\SeoManager\Models;
 
-use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 
@@ -14,7 +13,7 @@ class LaravelSeoManager extends Model
     public function getImageAttribute($value)
     {
         if (config('LaravelSeoManager.filesystem') == 'local') {
-            return "/storage/$value";
+            return  Storage::disk(config('LaravelSeoManager.storage-disc'))->url($value);
         }
         return env('CLOUDFRONT_URL', 'SET_CLOUDFRONT_URL') . $value;
     }

@@ -7,6 +7,7 @@ use Artesaos\SEOTools\Facades\OpenGraph;
 use Artesaos\SEOTools\Facades\SEOMeta;
 use Laravel\SeoManager\Contracts\SeoContact;
 use Laravel\SeoManager\Models\LaravelSeoManager;
+use Artesaos\SEOTools\Facades\TwitterCard;
 use function storage_path;
 
 
@@ -19,7 +20,7 @@ class SeoService implements SeoContact {
      * @param null $image
      * @return mixed|void
      */
-    public static function SeoManager($keyword, $title, $description, $image = null)
+    public static function SeoManager($keyword, $title, $description, $uri,$image = null)
     {
         if (is_array($keyword)) {
             $keyword = implode(',', $keyword);
@@ -32,6 +33,11 @@ class SeoService implements SeoContact {
 //        OpenGraph::addProperty('locale', 'en');
         OpenGraph::setTitle($title);
         OpenGraph::addImage($image);
+        TwitterCard::setTitle($title);
+        TwitterCard::setSite('@WooChess');
+        TwitterCard::setDescription($description);
+        TwitterCard::setUrl($uri);
+        TwitterCard::addImage($image);
 
     }
 
@@ -43,7 +49,7 @@ class SeoService implements SeoContact {
     {
         $seoFildes = LaravelSeoManager::where('url', $uri)->first();
         if(!empty($seoFildes))
-        self::SeoManager($seoFildes->meta_keywords, $seoFildes->title, $seoFildes->meta_description, $seoFildes->image);
+        self::SeoManager($seoFildes->meta_keywords, $seoFildes->title, $seoFildes->meta_description,$uri, $seoFildes->image);
 
     }
 

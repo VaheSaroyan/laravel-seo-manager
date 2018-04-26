@@ -13,7 +13,7 @@ interface SeoContact
      * @param null $image
      * @return mixed
      */
-    public static function SeoManager($keyword, $title, $description, $image = null);
+    public static function SeoManager($keyword, $title, $description,$uri, $image = null);
 
     /**
      * make page seo
