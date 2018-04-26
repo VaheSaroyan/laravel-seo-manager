@@ -61,7 +61,9 @@ In order to use the `SEOMeta` facade, you need to register it on the `config/app
 In your terminal type
 ```shell
 php artisan vendor:publish
+php artisam migrate
 ```
+
 
 In `LaravelSeoManager.php` configuration file you can determine the properties of the default values and some behaviors.
 
