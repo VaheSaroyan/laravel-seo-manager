@@ -13,7 +13,7 @@ class LaravelSeoManager extends Model
     public function getImageAttribute($value)
     {
         if (config('LaravelSeoManager.filesystem') == 'local') {
-            return  Storage::disk(config('LaravelSeoManager.storage-disc'))->url($value);
+            return  Storage::disk('')->url($value);
         }
         return env('CLOUDFRONT_URL', 'SET_CLOUDFRONT_URL') . $value;
     }
